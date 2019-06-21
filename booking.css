@@ -149,6 +149,17 @@ label,.label
 *:focus 
 {
 	outline:0;
+  box-shadow: 0 0 10px #EB0486;
+  border-color: #EB0486;
+}
+
+a:focus {
+  color: #EB0486;
+  font-weight: bold;
+}
+
+.button:focus {
+  background-color: #EB0486;
 }
 
 .activities > div
