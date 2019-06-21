@@ -1,0 +1,214 @@
+body
+{
+  font-size: 20px;
+  font-family: Verdana, sans-serif;
+  background-color: #404040;
+}
+
+.container
+{
+    width: 900px;
+    padding: 10px 50px;
+    background: #f0ede6;
+    margin: 50px auto;
+    border: 3px solid #F15B2A;
+    box-shadow: 0px 0px 2px 3px #EB0486;
+}
+
+.clear
+{
+    clear: both;
+}
+
+main
+{
+  width: 650px;
+}
+
+.side
+{
+  float: right;
+  width: 180px;
+  text-align: right;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.search
+{
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+}
+
+.search input[type=text]
+{
+    width: 190px;
+    margin-right: 10px;
+    vertical-align: middle;
+    padding: 8px 6px;
+}
+
+.search a
+{
+    vertical-align: middle;
+    display: inline-block;
+}
+
+h1,h2,h3
+{
+    font-family: 'Playball', 'Times New Roman', serif;
+    text-shadow: 1px 1px 0 #FFFFFF;
+}
+
+h1
+{
+  font-size: 48px;
+  font-weight: bold;
+}
+
+h2
+{
+    font-size: 32px;
+}
+
+a
+{
+    color: #F15B2A;
+}
+
+.image-heading
+{
+    margin: 20px 0 40px;
+}
+
+input[type=text], select
+{
+    border: 2px solid #F15B2A;
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+    padding: 3px 6px;
+    border-radius: 5px;
+    width: 400px;
+}
+
+select
+{
+    width: 415px;
+}
+
+select#details-card-expiry-month,
+select#details-card-expiry-year
+{
+    width: 205px;
+}
+
+input[type=text].datepicker
+{
+    width: 195px;
+}
+
+input[type=text].datepicker.datepicker-first {
+    margin-right: 15px;
+}
+
+input[type='checkbox'] {
+    -webkit-appearance: none;
+    margin-right: 10px;
+    width: 22px;
+    height: 22px;
+    background: white;
+    border-radius: 5px;
+    border: 2px solid #F15B2A;
+    vertical-align: middle;
+}
+input[type='checkbox']:checked {
+    background: url('images/tick.jpg') #EB0486;
+}
+
+label,.label
+{
+    width: 220px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 3px;
+}
+
+.date-label
+{
+    width: auto;
+    margin-right: 10px;
+}
+
+.checkboxes-label
+{
+    width: auto;
+    margin-bottom: 10px;
+}
+
+*:focus 
+{
+	outline:0;
+}
+
+.activities > div
+{
+  display: inline-block;
+  width: 300px;
+}
+
+.field
+{
+  margin-bottom: 30px;
+}
+
+.invalid
+{
+  border-color: #EB0486;
+}
+
+#validation-summary p
+{
+    color: #EB0486;
+    margin: 0 0 15px 0;
+    font-weight: bold;
+}
+
+.total-price
+{
+  font-size: 36px;
+  font-family: 'Playball', 'Times New Roman', serif;
+  text-shadow: 1px 1px 0 #FFFFFF;
+  margin: 50px 0 30px;
+  font-weight: bold;
+}
+
+.total-price-label
+{
+  width: 220px;
+  display: inline-block;
+}
+
+.total-price-value
+{
+  color: #EB0486; 
+}
+
+.price
+{
+   color: #EB0486; 
+   font-weight:bold;
+   margin-left: 5px;
+}
+
+.button
+{
+    margin: 20px 5px 20px 0;
+	height:50px;
+	display:inline-block;
+}
+
+.field-inline
+{
+  display: inline-block;
+}
