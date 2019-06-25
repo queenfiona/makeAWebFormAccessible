@@ -153,10 +153,10 @@ label,.label
   border-color: #EB0486;
 }
 
-a:focus {
-  color: #EB0486;
+/*a:focus {
+  color: #FFFFFF;
   font-weight: bold;
-}
+}*/
 
 .button:focus {
   background-color: #EB0486;
@@ -214,9 +214,13 @@ a:focus {
 
 .button
 {
-    margin: 20px 5px 20px 0;
-	height:50px;
+  
 	display:inline-block;
+  text-decoration: none;
+  color: #000000;
+  padding: 15px 30px 15px 30px;
+  border-radius: 25px;
+  background: #EB0486; 
 }
 
 .field-inline
