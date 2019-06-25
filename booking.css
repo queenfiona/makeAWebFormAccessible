@@ -146,6 +146,10 @@ label,.label
     margin-bottom: 10px;
 }
 
+fieldset {
+  border-color: #F15B2A;
+}
+
 *:focus 
 {
 	outline:0;
@@ -155,7 +159,7 @@ label,.label
 
 /*a:focus {
   color: #FFFFFF;
-  font-weight: bold;
+  font-weight: bold;s
 }*/
 
 .button:focus {
@@ -227,3 +231,4 @@ label,.label
 {
   display: inline-block;
 }
+
