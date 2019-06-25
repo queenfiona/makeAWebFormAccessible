@@ -14,16 +14,13 @@
     <link rel="stylesheet" type="text/css" href="booking.css">
 </head>
 <body>
-    <div class="container">
-        <aside class="search">
-            <input type="text" /><a href="#"><img src="images/search.png" /></a>
-        </aside>
+    <div class="container"> 
         <aside class="side">
-			<p>Please complete this form to book a room in one of our luxury hotels.</p>
+            <p>Please complete this form to book a room in one of our luxury hotels.</p>
             <p>Bookings may be cancelled up to 30 days in advance of your stay.
             <br/>Want to know more? <a href="">Click here</a></p>
             <p>By completing this form, you agree to our Terms and Conditions and Privacy Policy: <a href="">Read more</a></p>
-        </aside>
+        </aside>     
         <main>
             <h1>New Booking</h1>
             <form>
@@ -45,17 +42,24 @@
                     <label>Location *</label>
                     <select id="location">
                         <option></option>
-                        <option>Aberdeen, Scotland</option>
-                        <option>London, England</option>
-                        <option>Birmingham, England</option>
-                        <option>Reading, England</option>
-                        <option>Glasgow, Scotland</option>
-                        <option>Leeds, England</option>
-                        <option>Leicester, England</option>
-                        <option>Belfast, Northern Ireland</option>
-                        <option>Dundee, Scotland</option>
-                        <option>Edinburgh, Scotland</option>
-                        <option>Liverpool, England</option>
+                        <optgroup label="England">
+                            <option>London</option>
+                            <option>Birmingham</option>
+                            <option>Reading</option>
+                            <option>Leeds</option>
+                            <option>Liverpool</option>
+                            <option>Leicester</option>
+                        </optgroup>
+                        <optgroup label="Scotland">                 
+                            <option>Aberdeen</option>                 
+                            <option>Glasgow</option>                     
+                            <option>Dundee</option>
+                            <option>Edinburgh</option>
+                        </optgroup>
+                        <optgroup label="Northern Ireland">
+                            <option>Belfast</option>                            
+                        </optgroup>
+                        
                     </select>
                 </div>
 				
@@ -163,6 +167,9 @@
                 <a href="#" id="submit-form" class="button"><img src="images/book.png" /></a>
             </form>
         </main>
+        <aside class="search">
+            <input type="text" /><a href="#"><img src="images/search.png" /></a>
+        </aside>        
     </div>
 </body>
 </html>
